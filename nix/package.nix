@@ -12,7 +12,7 @@
 }:
 stdenv.mkDerivation (final: {
   pname = "cutecosmic";
-  version = "unstable-2025-11-10";
+  version = "unstable-2025-12-04";
   
   src = ../.;
   
@@ -48,7 +48,7 @@ stdenv.mkDerivation (final: {
 
   meta = with lib; {
     description = "Qt platform theme plugin for the COSMIC desktop environment";
-    homepage = "https://github.com/thshafi170/cutecosmic";
+    homepage = "https://github.com/tenshou170/cutecosmic-nix";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
