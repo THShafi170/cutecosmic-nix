@@ -4,13 +4,13 @@ Plugins to the Qt toolkit that help make Qt (and KDE) applications look and feel
 
 Currently consists of a Qt Platform Theme plugin.
 
-![Build Status](https://github.com/thshafi170/cutecosmic-nix/actions/workflows/build.yml/badge.svg)
+![Build Status](https://github.com/tenshou170/cutecosmic-nix/actions/workflows/build.yml/badge.svg)
 
 > [!CAUTION]
 > CuteCosmic is still experimental, things can break for NixOS.
 
 >[!IMPORTANT]
-> This fork of [CuteCosmic](https://github.com/IgKh/cutecosmic) is made specifically for NixOS. Use this repo to [report issues](https://github.com/thshafi170/cutecosmic-nix/issues) regarding CuteCosmic running on NixOS.
+> This fork of [CuteCosmic](https://github.com/IgKh/cutecosmic) is made specifically for NixOS. Use this repo to [report issues](https://github.com/tenshou170/cutecosmic-nix/issues) regarding CuteCosmic running on NixOS.
 
 >[!Warning]
 > CuteCosmic currently supports `nixos-unstable` (25.11 as of November 2025) branch. Advanced users can test this with `nixos-stable` branch at their own risk.
@@ -75,7 +75,7 @@ Or add it directly to your NixOS configuration:
 {
   inputs = {
     #...other inputs
-    cutecosmic.url = "github:thshafi170/cutecosmic-nix";
+    cutecosmic.url = "github:tenshou170/cutecosmic-nix";
   };
   #...rest of flake.nix
 }
@@ -105,7 +105,7 @@ environment.sessionVariables = {
 
 ```bash
 # Clone the repository
-git clone https://github.com/thshafi170/cutecosmic-nix.git
+git clone https://github.com/tenshou170/cutecosmic-nix.git
 cd cutecosmic-nix
 
 # Optional: Use cachix for dependencies

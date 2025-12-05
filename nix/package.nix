@@ -12,7 +12,7 @@
 }:
 stdenv.mkDerivation (final: {
   pname = "cutecosmic";
-  version = "unstable-2025-12-04";
+  version = "unstable-2025-12-05";
   
   src = ../.;
   
