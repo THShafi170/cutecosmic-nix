@@ -3,5 +3,10 @@ result
 result-*
 .direnv/
 
+# Rust
+.cache/
+build*/
+bindings/target/
+
 # GitHub Actions
 .github/workflows/*.log

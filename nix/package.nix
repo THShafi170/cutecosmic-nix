@@ -12,10 +12,10 @@
 }:
 stdenv.mkDerivation (final: {
   pname = "cutecosmic";
-  version = "unstable-2025-12-05";
-  
+  version = "unstable-2026-01-20";
+
   src = ../.;
-  
+
   cargoDeps = rustPlatform.fetchCargoVendor {
     inherit (final) pname version;
     src = final.src + "/bindings";
