@@ -12,14 +12,14 @@
 }:
 stdenv.mkDerivation (final: {
   pname = "cutecosmic";
-  version = "unstable-2026-01-20";
+  version = "master-2026-02-04";
 
   src = ../.;
 
   cargoDeps = rustPlatform.fetchCargoVendor {
     inherit (final) pname version;
     src = final.src + "/bindings";
-    hash = "sha256-f8/ZgYMg9q6ClPHI70f609XJCooHsoaBR2l6SBQ4IyU=";
+    hash = "sha256-+1z0VoxDeOYSmb7BoFSdrwrfo1mmwkxeuEGP+CGFc8Y=";
   };
 
   nativeBuildInputs = [
