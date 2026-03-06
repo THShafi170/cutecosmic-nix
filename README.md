@@ -1,5 +1,7 @@
 # CuteCosmic
 
+# ⚠️ This repo is now archived since the main package is now available as the official NixOS package
+
 Plugins to the Qt toolkit that help make Qt (and KDE) applications look and feel more at home in the COSMIC™ Desktop environment.
 
 Currently consists of a Qt Platform Theme plugin.
